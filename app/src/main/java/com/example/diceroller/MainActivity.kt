@@ -25,9 +25,13 @@ class MainActivity : AppCompatActivity() {
             Toast.LENGTH_SHORT).show()
 
         val resultText: TextView = findViewById(R.id.result_text)
+        val resultText2: TextView = findViewById(R.id.result_text2)
+        val resultText3: TextView = findViewById(R.id.result_text3)
 
         val randomInt = Random().nextInt(6) + 1
         resultText.text = randomInt.toString()
+        resultText2.text = randomInt.toString()
+        resultText3.text = randomInt.toString()
     }
 
     private fun countUp(){
