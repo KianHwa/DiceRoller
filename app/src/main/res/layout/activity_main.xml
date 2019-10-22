@@ -16,23 +16,25 @@
             android:id="@+id/result_text"
             android:textSize="30sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Hello World!"
-        android:id="@+id/result_text2"
-        android:textSize="30sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="156dp"
+        android:layout_height="171dp"
         android:layout_gravity="center_horizontal"
-        android:text="Hello World!"
-        android:id="@+id/result_text3"
-        android:textSize="30sp"/>
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />  <!--This line wont compile-->
 
-        <Button
+    <ImageView
+        android:id="@+id/dice_image2"
+        android:layout_width="156dp"
+        android:layout_height="171dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
+
+
+    <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
